@@ -6,7 +6,7 @@ import { addToDb, getShoppingCart } from '../../utilities/fakedb';
 
 const Shop = () => {
     const [products, setProducts] = useState([]);
-    const [cart,setCart] = useState([])
+    const [cart, setCart] = useState([])
 
 
 
@@ -23,14 +23,14 @@ const Shop = () => {
 
     // below the storege.....
 
-    useEffect(() =>{ 
+    useEffect(() => {
         const storedCart = getShoppingCart();
         const saveCart = [];
         //step1 get id of the addedProduct
-        for (const id in storedCart){
+        for (const id in storedCart) {
             //step2 get product from products state by using id
             const addedProduct = products.find(product => product.id === id)
-            if(addedProduct){
+            if (addedProduct) {
                 //step3 add quantity
                 const quantity = storedCart[id];
                 addedProduct.quantity = quantity;
@@ -44,18 +44,33 @@ const Shop = () => {
         }
         //step5 set the cart
         setCart(saveCart);
-    },[products])
+    }, [products])
 
-//end
-
-
+    //end
 
 
 
-    const handlerAddToCart = (product) =>{
+
+
+    const handlerAddToCart = (product) => {
+
         // cart.push(product);
-        const newcart = [...cart,product];
-        setCart(newcart);
+        let newCart = [];
+        // const newcart = [...cart, product];
+        // if product dosent exist in the cart, then set quantity = 1
+        // if exist update quantity by 1
+        const exists = cart.find(pd => pd.id === product.id);
+        if (!exists) {
+            product.quantity = 1;
+            newCart = [...cart, product]
+        }
+        else {
+            exists.quantity = exists.quantity + 1;
+            const remaining = cart.filter(pd => pd.id !== product.id);
+            newCart = [...remaining, exists];
+        }
+
+        setCart(newCart);
         addToDb(product.id)
     }
 
@@ -78,7 +93,7 @@ const Shop = () => {
             </div>
 
             <div className="cart-container">
-              <Cart cart={cart}></Cart>
+                <Cart cart={cart}></Cart>
 
             </div>
         </div>
