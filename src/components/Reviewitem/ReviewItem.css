@@ -1,0 +1,52 @@
+.review-item {
+    width: 571px;
+   
+    border: 1px solid #cf2225;
+    border-radius: 8px;
+    margin-bottom: 25px;
+    padding: 8px;
+    display: flex;
+    align-items: center;
+}
+
+.review-item .pd-title {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 25px;
+    letter-spacing: 0.0015em;
+}
+
+
+
+.review-item img {
+    width: 91px;
+    height: 91px;
+    border-radius: 12px;
+}
+
+.review-details p{
+  margin: 0 15px;
+}
+
+
+.review-details{
+    flex-grow: 1;
+}
+
+.org-txt{
+    color: orange;
+}
+
+.btn-dlt{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    padding: 4pxn;
+    background-color:#95A0A7;
+    padding: 10px;
+}
+
+.btn-icn{
+    color:  #9c0707;
+    font-size: 27px;
+}
