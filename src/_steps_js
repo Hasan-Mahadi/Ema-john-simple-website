@@ -1,0 +1,47 @@
+/***
+1. create firebase projects
+2. create web app
+3. npm in firebase
+4. SAVE firebase config and export  default app;
+5. build> Authentication>get srt enable sign in method;
+6. create sign up and login out
+
+
+**/
+
+/***
+
+1. create  a context provider
+2. create a context and set provider
+3. set the children props
+4.set context value
+5. ste the provider
+
+
+***/
+
+
+
+
+/***
+ hOSTING
+ -----------------
+
+* ONE TIME PRE projects
+ 1. npm i -g firebase-tools
+ 2.firebase login
+
+* For each project one time
+* 1. firebase init
+* 2. proceed
+* 3. hosting: firebase (up and down arrow) use space bar to select
+* 4. existing projects
+* 5. select the project carefully
+* 6. which projects as public directory: dist
+* 7. single page application: yes
+* 8. continuous deploument: no
+***/
+
+* For every time deploy
+* 1.npm run build
+* 2.firebase deploy

@@ -1,5 +1,33 @@
 [
     {
+        "id": "e1a7c529-f91b-4ef5-a661-c2317c5c314e",
+        "category": "Bottle",
+        "name": "Steel Metal Bottle 1L",
+        "seller": "Addidas",
+        "price": 20,
+        "stock": 14,
+        "ratings": 5,
+        "ratingsCount": 63,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/29ef510920b54492a721aa1c01782cb2_9366/Steel_Metal_Bottle_1L_White_CL6092_01_standard.jpg",
+        "shipping": 21,
+        "quantity": 0
+    },
+    {
+        "id": "d1116075-10f2-49c4-985e-fg41e19dc1b8",
+        "category": "Earphones",
+        "name": "RPT-01 Sport On-Ear Headphones",
+        "seller": "Addidas",
+        "price": 170,
+        "stock": 15,
+        "ratings": 5,
+        "ratingsCount": 55,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/c697ceddb0c2469aaa2eaa7101121d10_9366/RPT-01_Sport_On-Ear_Headphones_Black_CM5015_01_standard.jpg",
+        "shipping": 48,
+        "quantity": 0
+    },
+
+
+    {
         "id": "124e13b9-2d54-4b2f-a74d-a77b362d6ead",
         "category": "Men's Sneaker",
         "name": "ULTRABOOST 22 SHOES",
@@ -10,6 +38,46 @@
         "ratingsCount": 3725,
         "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
         "shipping": 1,
+        "quantity": 0
+    },
+
+    {
+        "id": "f088beb8-d664-4166-99f8-6995c2f08465",
+        "category": "Men's Sneaker",
+        "name": "ADICOLOR CLASSICS TREFOIL TEE",
+        "seller": "Addidas",
+        "price": 20,
+        "stock": 12,
+        "ratings": 4,
+        "ratingsCount": 41,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/de7b5dc9e5a341b9bf5aad570106ba06_9366/Adicolor_Classics_Trefoil_Tee_Burgundy_H06641_21_model.jpg",
+        "shipping": 38,
+        "quantity": 0
+    },
+    {
+        "id": "4a0090e7-b65d-4f6e-a42b-5603a3f51883",
+        "category": "Bag",
+        "name": "3-Stripes Backpack 2.0",
+        "seller": "Addidas",
+        "price": 74,
+        "stock": 7,
+        "ratings": 5,
+        "ratingsCount": 365,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto:sensitive,fl_lossy,c_fill,g_auto/ba79ccb861fd4fd49e3aac9f006a6407_9366/3-Stripes_Backpack_2.0_Grey_EX6735_01_standard.jpg",
+        "shipping": 23,
+        "quantity": 0
+    },
+    {
+        "id": "9496d72b-04ec-41f8-9bc3-0a7c9697be8e",
+        "category": "Men's Sneaker",
+        "name": "4DFWD SHOES",
+        "seller": "Addidas",
+        "price": 287,
+        "stock": 11,
+        "ratings": 4,
+        "ratingsCount": 799,
+        "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/8c5d1994dfd343e28567ad4400dd351d_9366/4DFWD_Shoes_Black_Q46447_01_standard.jpg",
+        "shipping": 49,
         "quantity": 0
     },
     {

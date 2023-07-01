@@ -19,3 +19,13 @@ nav.header a {
 nav.header a:hover{
     color: orange;
 }
+.text-white{
+    color: white;
+    padding-left: 5px;
+}
+.text-xyz{
+    margin-left: 10px;
+}
+.wel{
+    color:chartreuse;
+}
